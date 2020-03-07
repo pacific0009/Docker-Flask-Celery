@@ -49,6 +49,6 @@ with json data
         "password": "<password>"
     }
 
-***Celery Monitor Flower***
+***Task Monitor Flower***
 
 You can monitor tasks at http://localhost:5555/
