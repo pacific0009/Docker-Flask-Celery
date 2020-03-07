@@ -26,6 +26,7 @@ This will run the server at port http://localhost:8400/
 The index view will be displayed in your browser.
 
 ***Flask commands***
+
 Enter into web container bash to execute commands
     sudo docker -it containerId /bin/ash
 
@@ -36,6 +37,7 @@ Execute loginhistory command (last 50 entries)
     flask loginhistory
 
 ***Login api***
+
 Send a post request to http://localhost:8400/login 
 with json data
     {
@@ -44,4 +46,5 @@ with json data
     }
 
 ***Celery Monitor Flower***
+
 You can monitor tasks at http://localhost:5555/
