@@ -28,13 +28,14 @@ The index view will be displayed in your browser.
 ***Flask commands***
 
 Enter into web container bash to execute commands
-    sudo docker -it containerId /bin/ash
 
-Execute create user command
+    sudo docker -it <container id> /bin/ash
+
+To create a new user
 
     flask createuser -u username -p password
 
-Execute loginhistory command (last 50 entries)
+To print login history (last 50 entries)
 
     flask loginhistory
 
