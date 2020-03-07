@@ -31,15 +31,18 @@ Enter into web container bash to execute commands
     sudo docker -it containerId /bin/ash
 
 Execute create user command
+
     flask createuser -u username -p password
 
 Execute loginhistory command (last 50 entries)
+
     flask loginhistory
 
 ***Login api***
 
 Send a post request to http://localhost:8400/login 
 with json data
+
     {
         "user_id": "<username>"
         "password": "<password>"
