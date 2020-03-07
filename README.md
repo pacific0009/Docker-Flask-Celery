@@ -25,7 +25,7 @@ This will run the server at port http://localhost:8400/
 
 The index view will be displayed in your browser.
 
-***Flask commands**
+***Flask commands***
 Enter into web container bash to execute commands
     sudo docker -it containerId /bin/ash
 
